@@ -3,7 +3,7 @@
 ## one-liners
 
 Task 1: Process the file line by line, and return all matches
-`perl -ne 'while(/\bc\w+/g){print "$&\n";}' yourfile`
+```perl -ne 'while(/\bc\w+/g){print "$&\n";}' yourfile```
 
 Task 2: Process the file line by line, and return all matching lines
 `perl -ne 'print if /\bc\w+/' yourfile`
